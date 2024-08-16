@@ -2,6 +2,10 @@ function Game() {
   return (
     <div className="app">
       <h3>Memory Card Game</h3>
+      <div className="title">
+        <h3>Score:</h3>
+        <h3>High Score:</h3>
+      </div>
       <div className="rows">
         <div className="row1">
           <img src="1.jpg" alt="" />
